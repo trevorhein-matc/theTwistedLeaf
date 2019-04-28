@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Bell Pepper",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 2,
+        "name": "Broccoli",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 3,
+        "name": "Carrots",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 4,
+        "name": "Cilantro",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 5,
+        "name": "Garlic",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 6,
+        "name": "Jalapeno Pepper",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 7,
+        "name": "Ketchup",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 8,
+        "name": "Onion",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 9,
+        "name": "Potato",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 10,
+        "name": "Spinach",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 11,
+        "name": "Sweet Potato",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 12,
+        "name": "Tomato",
+        "type": "veggie",
+        "image": "",
+        "inPantry": false
+    }
+]

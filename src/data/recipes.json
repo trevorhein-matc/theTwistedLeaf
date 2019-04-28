@@ -1,0 +1,289 @@
+[
+    {
+      "name": "Stir Fry",
+      "image": "",
+      "ingredients": [
+          "Chicken",
+          "Bell Pepper",
+          "Onion",
+          "Garlic",
+          "Rice",
+          "Cilantro"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3"
+      ]
+    },
+    {
+      "name": "Bacon and Eggs",
+      "image": "",
+      "ingredients": [
+          "Bacon",
+          "Eggs"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2"
+      ]
+    },
+    {
+      "name": "Shrimp Alfredo",
+      "image": "",
+      "ingredients": [
+          "Shrimp",
+          "Penne Pasta",
+          "Greek Yogurt",
+          "Garlic"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3",
+          "Step 4",
+          "Step 5"
+      ]
+    },
+    {
+      "name": "Pico de Gallo",
+      "image": "",
+      "ingredients": [
+          "Tomato",
+          "Onion",
+          "Jalapeno Pepper",
+          "Garlic",
+          "Lime",
+          "Cilantro"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2"
+      ]
+    },
+    {
+      "name": "Guacamole",
+      "image": "",
+      "ingredients": [
+          "Avocado",
+          "Garlic",
+          "Lime",
+          "Cilantro"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2"
+      ]
+    },
+    {
+      "name": "Shrimp Ceviche",
+      "image": "",
+      "ingredients": [
+          "Shrimp",
+          "Tomato",
+          "Jalapeno Pepper",
+          "Avocado",
+          "Garlic",
+          "Lime",
+          "Cilantro"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3",
+          "Step 4"
+      ]
+    },
+    {
+      "name": "Chicken Parmesan",
+      "image": "",
+      "ingredients": [
+          "Chicken Breast",
+          "Tomato",
+          "Garlic",
+          "Spaghetti Pasta",
+          "Mozzerella Cheese"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3",
+          "Step 4",
+          "Step 5",
+          "Step 6"
+      ]
+    },
+    {
+      "name": "Shrimp Curry",
+      "image": "",
+      "ingredients": [
+          "Shrimp",
+          "Onion",
+          "Garlic",
+          "Cilantro",
+          "Jalapeno Pepper",
+          "Rice",
+          "Coconut Milk"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3",
+          "Step 4",
+          "Step 5",
+          "Step 6"
+      ]
+    },
+    {
+      "name": "Turkey Chili",
+      "image": "",
+      "ingredients": [
+          "Ground Turkey",
+          "Onion",
+          "Garlic",
+          "Tomato",
+          "Jalapeno Pepper",
+          "Beans"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3"
+      ]
+    },
+    {
+      "name": "Turkey Sloppy Joe",
+      "image": "",
+      "ingredients": [
+          "Ground Turkey",
+          "Onion",
+          "Garlic",
+          "Tomato",
+          "Ketchup",
+          "Roll"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3"
+      ]
+    },
+    {
+      "name": "Sweet Sour Sandwich",
+      "image": "",
+      "ingredients": [
+          "Graham Crackers",
+          "Greek Yogurt",
+          "Lime"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2"
+      ]
+    },
+    {
+      "name": "Apple Dip",
+      "image": "",
+      "ingredients": [
+          "Apple",
+          "Greek Yogurt",
+          "Peanut Butter"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2"
+      ]
+    },
+    {
+      "name": "Chimichurri Sauce",
+      "image": "",
+      "ingredients": [
+          "Cilantro",
+          "Garlic",
+          "Lime"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2"
+      ]
+    },
+    {
+      "name": "Shrimp Spinach Salad",
+      "image": "",
+      "ingredients": [
+          "Cilantro",
+          "Garlic",
+          "Lime",
+          "Spinach",
+          "Shrimp",
+          "Tomato",
+          "Onion",
+          "Parmesan Cheese"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3",
+          "Step 4",
+          "Step 5"
+      ]
+    },
+    {
+      "name": "Chicken Fingers",
+      "image": "",
+      "ingredients": [
+          "Chicken Breast",
+          "Egg",
+          "Panko"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3",
+          "Step 4"
+      ]
+    },
+    {
+      "name": "Shrimp Tacos",
+      "image": "",
+      "ingredients": [
+          "Shrimp",
+          "Tortilla",
+          "Rice",
+          "Cilantro",
+          "Tomato",
+          "Avocado",
+          "Onion"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3",
+          "Step 4",
+          "Step 5",
+          "Step 6"
+      ]
+    },
+    {
+      "name": "Turkey Breakfast Burger",
+      "image": "",
+      "ingredients": [
+          "Ground Turkey",
+          "Roll",
+          "Bacon",
+          "Egg",
+          "Tomato",
+          "Onion"
+      ],
+      "steps": [
+          "Step 1",
+          "Step 2",
+          "Step 3",
+          "Step 4",
+          "Step 5",
+          "Step 6",
+          "Step 7"
+      ]
+    }
+  ]
+  

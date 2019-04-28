@@ -1,0 +1,37 @@
+[
+    {
+        "id": 13,
+        "name": "Apple",
+        "type": "fruit",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 14,
+        "name": "Avocado",
+        "type": "fruit",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 15,
+        "name": "Banana",
+        "type": "fruit",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 16,
+        "name": "Coconut Milk",
+        "type": "fruit",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 17,
+        "name": "Lime",
+        "type": "fruit",
+        "image": "",
+        "inPantry": false
+    }
+]

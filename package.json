@@ -5,20 +5,29 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "flow-remove-types": "^1.2.3",
+    "flow-typed": "^2.5.1",
     "gatsby": "^2.3.31",
     "gatsby-image": "^2.0.40",
+    "gatsby-plugin-flow": "^1.0.5",
     "gatsby-plugin-manifest": "^2.0.29",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-source-contentful": "^2.0.53",
     "gatsby-source-filesystem": "^2.0.32",
     "gatsby-transformer-sharp": "^2.1.18",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-swipeable-views": "^0.13.1",
+    "typeface-roboto": "0.0.54"
   },
   "devDependencies": {
+    "flow-bin": "^0.98.0",
     "prettier": "^1.17.0"
   },
   "keywords": [
@@ -31,7 +40,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "flow": "flow"
   },
   "repository": {
     "type": "git",

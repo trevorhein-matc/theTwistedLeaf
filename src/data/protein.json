@@ -1,0 +1,51 @@
+[
+    {
+        "id": 25,
+        "name": "Bacon",
+        "type": "protein",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 26,
+        "name": "Beans",
+        "type": "protein",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 27,
+        "name": "Chicken Breast",
+        "type": "protein",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 28,
+        "name": "Egg",
+        "type": "protein",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 29,
+        "name": "Ground Turkey",
+        "type": "protein",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 30,
+        "name": "Peanut Butter",
+        "type": "protein",
+        "image": "",
+        "inPantry": false
+    },
+    {
+        "id": 31,
+        "name": "Shrimp",
+        "type": "protein",
+        "image": "",
+        "inPantry": false
+    }
+]

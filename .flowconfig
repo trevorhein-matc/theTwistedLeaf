@@ -1,0 +1,14 @@
+[ignore]
+.*/.cache/.*
+.*/__tests__/.*
+
+[include]
+.*/src/.*
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
