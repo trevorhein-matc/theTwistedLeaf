@@ -29,14 +29,14 @@ export default class Layout extends React.Component {
           render={data => (
             <div>
               <NavBar>
-              <Main mt="-2px">
-                {children}
-              </Main>
-              <Footer>
-                © {new Date().getFullYear()}, Enjoy 
-                {` `}
-                <a href="https://www.tbd.org">The Twisted Leaf</a>
-              </Footer>
+                <Main mt="-2px">
+                  {children}
+                </Main>
+                <Footer>
+                  © {new Date().getFullYear()}, Enjoy 
+                  {` `}
+                  <a href="https://www.tbd.org">The Twisted Leaf</a>
+                </Footer>
               </NavBar>
             </div>
           )}

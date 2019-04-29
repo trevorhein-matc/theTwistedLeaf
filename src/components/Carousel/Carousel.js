@@ -6,6 +6,7 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft'
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight'
 import SwipeableViews from 'react-swipeable-views'
 import CarouselSlides from '../Carousel/CarouselSlides'
+import { graphql } from 'gatsby'
 
 const carouselSlides = [
     {
@@ -50,9 +51,11 @@ class Carousel extends React.Component {
     };
 
     render() {
-        const { classes, theme } = this.props;
+        const { classes, theme, data } = this.props;
         const { activeSlide } = this.state;
-        const maxSlides = carouselSlides.length;
+        const maxSlides = data.length;
+
+        // console.log({data})
 
         return (
             <div className={classes.root}>
@@ -62,11 +65,8 @@ class Carousel extends React.Component {
                     onChangeIndex={this.handleSlideChange}
                     enableMouseEvents
                 >
-                    {carouselSlides.map((slide, index) => (
-                        <div key={slide.name}>
-                            {Math.abs(activeSlide - index) <= 2 ? (
-                                <CarouselSlides data={slide} />
-                            ) : null}
+                    {data.map((slide, index) => (
+                        <div key={slide.node.id}>
                         </div>
                     ))}
                 </SwipeableViews>
@@ -89,3 +89,25 @@ Carousel.propTypes = {
 };
 
 export default withStyles(styles, { withTheme: true })(Carousel);
+
+// export const query = graphql`
+// query mainCarouselQuery {
+//     allContentfulTwistedJumboCard (
+//         sort: { fields: [updated], order: DESC }
+//     ) {
+//         edges {
+//             node {
+//                 id
+//                 title
+//                 description
+//                 updated
+//                 image {
+//                 fluid {
+//                     src
+//                 }
+//                 }
+//             }
+//         }
+//     }
+// }
+// `
