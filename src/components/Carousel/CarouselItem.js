@@ -28,7 +28,6 @@ class CarouselItem extends React.Component {
                 width={[1, 1, 1]}
                 mx='auto'
             >
-                {/* <ImagePicker mjPic={data.name} /> */}
                 <Card
                     p={1}
                     py={[7, 7, 7]}

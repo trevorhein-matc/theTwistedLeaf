@@ -5,7 +5,6 @@ import Button from '@material-ui/core/Button'
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft'
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight'
 import SwipeableViews from 'react-swipeable-views'
-import CarouselSlides from '../Carousel/CarouselSlides'
 import CarouselItem from '../Carousel/CarouselItem'
 import { graphql } from 'gatsby'
 
@@ -57,8 +56,6 @@ class Carousel extends React.Component {
         const { activeSlide } = this.state;
         const maxSlides = data.length;
 
-        // console.log({data})
-
         return (
             <div className={classes.root}>
                 <SwipeableViews
@@ -93,24 +90,3 @@ Carousel.propTypes = {
 
 export default withStyles(styles, { withTheme: true })(Carousel);
 
-// export const query = graphql`
-// query mainCarouselQuery {
-//     allContentfulTwistedJumboCard (
-//         sort: { fields: [updated], order: DESC }
-//     ) {
-//         edges {
-//             node {
-//                 id
-//                 title
-//                 description
-//                 updated
-//                 image {
-//                 fluid {
-//                     src
-//                 }
-//                 }
-//             }
-//         }
-//     }
-// }
-// `
