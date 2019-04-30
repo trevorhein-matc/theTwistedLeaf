@@ -6,27 +6,29 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft'
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight'
 import SwipeableViews from 'react-swipeable-views'
 import CarouselSlides from '../Carousel/CarouselSlides'
+import CarouselItem from '../Carousel/CarouselItem'
 import { graphql } from 'gatsby'
 
-const carouselSlides = [
-    {
-        name: 'carousel1'
-    },
-    {
-        name: 'carousel2'
-    },
-    {
-        name: 'carousel3'
-    },
-    {
-        name: 'carousel4'
-    },
-];
+import { Flex, Box, Card, Heading } from 'rebass'
+import CardActionArea from "@material-ui/core/CardActionArea"
+
+
 
 const styles = theme => ({
     root: {
         flexGrow:1,
     },
+    header: {
+        display: 'flex',
+        alignItems: 'center',
+        height: 50,
+        paddingLeft: theme.spacing.unit * 4,
+        backgroundColor: theme.palette.background.default,
+    },
+    tester: {
+        display: 'block',
+        zIndex: 25,
+    }
 });
 
 class Carousel extends React.Component {
@@ -67,6 +69,7 @@ class Carousel extends React.Component {
                 >
                     {data.map((slide, index) => (
                         <div key={slide.node.id}>
+                            <CarouselItem data={slide.node}/>
                         </div>
                     ))}
                 </SwipeableViews>

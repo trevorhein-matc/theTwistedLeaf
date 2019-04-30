@@ -25,9 +25,9 @@ query mainCarouselQuery {
                 description
                 updated
                 image {
-                fluid {
-                    src
-                }
+                  fluid {
+                      src
+                  }
                 }
             }
         }
