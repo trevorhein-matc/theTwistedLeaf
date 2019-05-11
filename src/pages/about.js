@@ -17,7 +17,7 @@ export default AboutPage
 export const query = graphql`
 query aboutPageQuery {
   allContentfulTwistedAboutSection (
-    sort: { fields: [updated], order: DESC }
+    sort: { fields: [updatedAt], order: DESC }
   ) {
     edges {
       node {
