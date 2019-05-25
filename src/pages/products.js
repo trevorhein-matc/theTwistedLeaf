@@ -10,14 +10,14 @@ import { graphql } from 'gatsby';
 
 const ProductsPage = ({ data }) => (
   <Layout>
-    <DisclaimerModal />
+    {/* <DisclaimerModal />
     <GridLayout>
       {data.allContentfulTwistedProductCard.edges.map((edge) => (
         <Grid item xs={12} sm={6} md={6} key={edge.node.id}>
           <ProductCard data={edge.node} />
         </Grid>
       ))}
-    </GridLayout>
+    </GridLayout> */}
   </Layout>
 )
 

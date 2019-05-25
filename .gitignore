@@ -1,3 +1,7 @@
+# Build
+public/
+.cache
+
 # Logs
 logs
 *.log
