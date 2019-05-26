@@ -25,6 +25,9 @@ import { StaticQuery, graphql } from 'gatsby'
 import 'typeface-roboto';
 
 import twistedIcon from "../images.1/TWISTEDLEAF2.png"
+import navBarLogoImg from "../images.1/TheTwistedLeaf-logo-v3-OL-01.png"
+import NavBarLogo from "../NavBar/NavBarLogo"
+import { Image as ImageBase } from 'rebass'
 
 const drawerWidth = 200;
 
@@ -43,10 +46,10 @@ const styles = theme => ({
         [theme.breakpoints.up("xl")]: {
           width: `calc(100% - ${drawerWidth}px)`,
         },
-        background: 'linear-gradient(45deg, #032102 30%, #024700 90%)'
+        background: 'linear-gradient(45deg, #032102 20%, #eff7f0 90%)'
     },
     menuButton: {
-        marginRight: 20,
+        marginRight: 0,
         [theme.breakpoints.up("xl")]: {
           display: "none"
         }
@@ -162,8 +165,8 @@ class NavBar extends React.Component {
                   <Helmet
                       title="The Twisted Leaf"
                       meta={[
-                          { name: 'description', content: 'Just a Test' },
-                          { name: 'keywords', content: 'sample of something' },
+                          { name: 'description', content: 'Wholesale CBD infused candies and confections.' },
+                          { name: 'keywords', content: 'CBD, Wholesale, candy, Milwaukee, Wisconsin' },
                       ]}
                       link={[
                         {rel: "icon", type: "image/png", sizes: "16x16", href: `${twistedIcon}`}
@@ -181,8 +184,18 @@ class NavBar extends React.Component {
                             onClick={this.handleDrawerToggle}
                             className={classes.menuButton}
                           >
-                            <MenuIcon />
+                            <MenuIcon 
+                              margin-right='10px'
+                            />
                           </IconButton>
+
+                            <ImageBase
+                                src={navBarLogoImg}
+                                mb={-1.1}
+                                width='auto'
+                                height={50}
+                            />
+
                           <Typography variant="h6" color="inherit" noWrap component={ Link } to='/' className={classes.mainLink}>
                           The Twisted Leaf
                           </Typography>

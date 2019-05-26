@@ -2,6 +2,8 @@ import React from 'react'
 import { Flex, Box, Card, Heading } from 'rebass'
 import { withStyles } from '@material-ui/core/styles'
 import CardActionArea from "@material-ui/core/CardActionArea"
+import Typography from '@material-ui/core/Typography';
+import CarouselDescText from '../Carousel/CarouselDescText';
 
 const styles = theme => ({
     root: {
@@ -30,7 +32,7 @@ class CarouselItem extends React.Component {
             >
                 <Card
                     p={1}
-                    py={[7, 7, 7]}
+                    py={[7, 7, 400]}
                     width={[1, 1, 1]}
                     backgroundImage={"url(" + data.image.fluid.src + ")"}
                     backgroundSize='cover'
@@ -50,6 +52,9 @@ class CarouselItem extends React.Component {
                                 >
                                 {data.title}
                             </Heading>
+                            <CarouselDescText>
+                                {data.description}
+                            </CarouselDescText>
                         </Box>
                     </CardActionArea>
                 </Card>

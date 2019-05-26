@@ -11,8 +11,6 @@ import { graphql } from 'gatsby'
 import { Flex, Box, Card, Heading } from 'rebass'
 import CardActionArea from "@material-ui/core/CardActionArea"
 
-
-
 const styles = theme => ({
     root: {
         flexGrow:1,

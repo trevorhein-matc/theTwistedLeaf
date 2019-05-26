@@ -27,13 +27,6 @@ class MenuButton extends React.Component {
     }
 }
 
-// function MenuButton(props) {
-//     const { classes } = props;
-//     return (
-
-//     )
-// }
-
 MenuButton.propTypes = {
     classes: PropTypes.object.isRequired,
 };
