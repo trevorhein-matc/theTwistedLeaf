@@ -24,6 +24,8 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import 'typeface-roboto';
 
+import twistedIcon from "../images.1/TWISTEDLEAF2.png"
+
 const drawerWidth = 200;
 
 const styles = theme => ({
@@ -162,6 +164,9 @@ class NavBar extends React.Component {
                       meta={[
                           { name: 'description', content: 'Just a Test' },
                           { name: 'keywords', content: 'sample of something' },
+                      ]}
+                      link={[
+                        {rel: "icon", type: "image/png", sizes: "16x16", href: `${twistedIcon}`}
                       ]}
                   >
                       <html lang="en" />
