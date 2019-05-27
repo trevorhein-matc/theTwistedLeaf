@@ -10,7 +10,7 @@ class WhatsNew extends React.Component {
     
         return (
           <div>
-            <WhatsNewBanner />
+            {/* <WhatsNewBanner /> */}
             <WhatsNewSection1 />
             <WhatsNewSection2 />
             <WhatsNewSection3 />

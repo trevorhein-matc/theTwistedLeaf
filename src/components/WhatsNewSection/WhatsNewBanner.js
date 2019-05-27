@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box } from 'rebass'
-import { ThemeProvider, makeStyles } from '@material-ui/styles';
+import { ThemeProvider, makeStyles, styled } from '@material-ui/styles';
 import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles(theme => ({
