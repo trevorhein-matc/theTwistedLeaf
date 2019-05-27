@@ -10,7 +10,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <Carousel data={data.allContentfulTwistedJumboCard.edges} />
     {/* <WhatsNew /> */}
-  {/* <AboutSection /> */}
+    {/* <AboutSection /> */}
     <MainPageCardDeck /> 
   </Layout>
 )
