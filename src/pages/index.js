@@ -9,7 +9,7 @@ import AboutSection from '../components/AboutSection/AboutSection'
 const IndexPage = ({ data }) => (
   <Layout>
     <Carousel data={data.allContentfulTwistedJumboCard.edges} />
-    <WhatsNew />
+    {/* <WhatsNew /> */}
   {/* <AboutSection /> */}
     <MainPageCardDeck /> 
   </Layout>
