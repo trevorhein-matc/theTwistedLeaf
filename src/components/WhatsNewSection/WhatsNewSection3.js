@@ -25,11 +25,11 @@ class WhatsNewSection3 extends React.Component {
           <div>
             <Flex flexWrap='wrap'>
                 <Image
-                    width={[1, 2/3, 2/3]}
+                    width={[1, 1, 2/3]}
                     src={aboutImg3}
                     height={['100%', 300, 500]}
                 />
-                <WhatsNewInfo3 />
+                {/* <WhatsNewInfo3 /> */}
             </Flex>
           </div>
         );

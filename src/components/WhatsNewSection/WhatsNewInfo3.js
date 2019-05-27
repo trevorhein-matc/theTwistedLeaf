@@ -54,7 +54,7 @@ function InfoBox() {
 }
 
 const theme = {
-    background: '#eff7f0)',
+    background: '#eff7f0',
 };
 
 function WhatsNewInfo3() {
